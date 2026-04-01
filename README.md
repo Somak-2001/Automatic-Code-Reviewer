@@ -74,21 +74,23 @@ Open `http://127.0.0.1:8000`
 ## Project structure
 
 ```text
-app/
-  config.py
-  llm_clients.py
-  main.py
-  models.py
-  prompts.py
-  repo_loader.py
-  report_writer.py
-  review_orchestrator.py
-  static_analyzer.py
-  templates/index.html
-streamlit_app.py
-requirements.txt
-.env.example
-README.md
+.
+|-- app
+|   |-- config.py
+|   |-- llm_clients.py
+|   |-- main.py
+|   |-- models.py
+|   |-- prompts.py
+|   |-- repo_loader.py
+|   |-- report_writer.py
+|   |-- review_orchestrator.py
+|   |-- static_analyzer.py
+|   `-- templates
+|       `-- index.html
+|-- streamlit_app.py
+|-- requirements.txt
+|-- .env.example
+`-- README.md
 ```
 
 ## Setup
